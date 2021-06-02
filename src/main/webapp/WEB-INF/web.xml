@@ -1,0 +1,7 @@
+<web-app>
+   <servlet>
+<servlet-name>StudentData</servlet-name>
+<servlet-class>ServletStudentData</servlet-class> </servlet>
+<servlet-mapping> <servlet-name>StudentData</servlet-name> <url-pattern>/ServletStudentData</url-pattern>
+   </servlet-mapping>
+</web-app>

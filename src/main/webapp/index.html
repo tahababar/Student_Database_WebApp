@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head><title>Student Portal</title></head>
+<body>
+    <br>
+    <br>
+    <br>
+	<h1> Student Info </h1> 
+<form method="post" action="/StudentData/ServletStudentData"> 
+ <h3> Enter another student's record: </h3>
+ <div>  
+                <label>Enter Student ID: </label>  
+                <input type="number" name="SId">  
+            </div>  
+ <div>  
+                <label>Enter Student Name: </label>  
+                <input type="text" name="SName">  
+            </div>  
+            <div>  
+                <label>Enter Graduation Year: </label>     
+                <input type="number" name="GradYear">  
+            </div>  
+            <div>  
+                <label>Enter Course ID: </label>  
+                <input type="number" name="CourseId">    
+            </div>  
+
+ <h3> Update a student's courseId: </h3>
+ <div>  
+               
+                <label>Enter Student Name: </label>  
+                <input type="text" name="SName2">  
+            </div>  
+            <div>  
+             
+                <label>Enter Course ID: </label>  
+                <input type="number" name="CourseId2">    
+            </div>  
+<h3> Delete a student's record: </h3>
+ <div>  
+               
+                <label>Enter Student Id: </label>  
+                <input type="number" name="SId2">  
+            </div>  
+  
+             
+            <br>
+            <br>
+            <div class="container2">
+          <input type="submit" value="Make changes!"> 
+          </div> 
+            </form>
+            <br>
+            
+ <form method="get" action="/StudentData/ServletStudentData">
+ <div class="container">
+<input type="submit" value="Display Students">
+</div> </form>
+</body>
+
+<style>
+body {
+background-color: #eeebdd;
+}
+h3{
+    background-color: #BBBBBB;
+    text-align: center;
+}
+h1{
+	background-color: #B67162;
+	text-align: center;
+}
+label, input, div{
+    text-align: center; 
+}
+
+container,container2{
+	margin-left: 50%;
+}
+
+
+
+
+
+</style>   
+</html>
